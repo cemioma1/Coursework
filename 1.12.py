@@ -1,3 +1,6 @@
+'''(Turtle: draw four squares) Write a program that draws four squares in the center
+of the screen, as shown in Figure 1.18a'''
+
 import _tkinter
 import turtle
 #square

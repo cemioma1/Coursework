@@ -1,0 +1,43 @@
+import turtle
+#blue circle
+turtle.pensize(15)
+turtle.penup()
+turtle.goto(-200,50)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color("blue")
+turtle.circle(80)
+#black circle
+turtle.pensize(15)
+turtle.penup()
+turtle.goto(-5,50)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color("black")
+turtle.circle(80)
+#red circle
+turtle.pensize(15)
+turtle.penup()
+turtle.goto(200,50)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color("red")
+turtle.circle(80)
+#yellow circle
+turtle.pensize(15)
+turtle.penup()
+turtle.goto(-100,-40)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color("yellow")
+turtle.circle(80)
+#green circle
+turtle.pensize(15)
+turtle.penup()
+turtle.goto(100,-40)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color("green")
+turtle.circle(80)
+
+turtle.done()
